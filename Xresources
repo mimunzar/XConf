@@ -1,6 +1,5 @@
-! Some nice font
-xterm*faceName: Terminus
-xterm*faceSize: 12
+! Font
+xterm*faceName: monospace:pixelsize=14
 
 ! Every shell is a login shell by default (for inclusion of all necessary env. variables)
 xterm*loginshell: true
