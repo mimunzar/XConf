@@ -182,6 +182,10 @@ exec i3-config-wizard
 # bind screen lock
 bindsym Ctrl+Mod1+l exec i3lock -c 000000
 
+# gind screen shotter
+bindsym Print exec gnome-screenshot -i
+bindsym Ctrl+Print exec gnome-screenshot -w
+
 # start redshift
 exec --no-startup-id redshift
 
